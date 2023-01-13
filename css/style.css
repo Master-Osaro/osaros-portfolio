@@ -129,6 +129,8 @@ main, .container{
 }
 
 
+
+
 .content__wrapper{
     flex: 1;
     display: flex;
@@ -216,8 +218,12 @@ letter-spacing: 0.15rem;
         border-radius: 0 0 0 3.5rem;
     }
     main, .container{
-        flex-direction: column-reverse;
+        flex-direction: column;
         gap: 3rem;
+    }
+
+    .container__featured{
+        flex-direction: column-reverse;
     }
     
 
@@ -285,7 +291,10 @@ letter-spacing: 0.15rem;
     .illustration__wrapper--left{
         width: 100%;   
     }
-
+    
+    .illustration__wrapper--left img{
+        margin-right: 0;
+    }
     
 
 
