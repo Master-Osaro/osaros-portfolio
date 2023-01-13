@@ -202,6 +202,7 @@ letter-spacing: 0.15rem;
     margin-left: 0;
     margin-right: 4rem;
     width: 100%;
+    opacity: 0.8;
 }
 
 @media only screen and (max-width: 576px) {
