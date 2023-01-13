@@ -1,11 +1,127 @@
-<h2>Hi, I'm Osaro. A frontend Developer. Folio update in progress</h2>
-<h3>Updated portfolio will be up in the next 24hours</h3>
-<h4>For now, you can check out my github link here <a href="">osaro's github</a><h4>
-<h4>Here are some of my projects</h4>
-<ul>
-<li>Room homepage slider <a href="https://room-homepage-react-o.netlify.app/">live link</a></li>
-<li>Social-media-dashboard with dark mode <a href="https://social-media-dashboard-o.netlify.app/">live link</a> <a href="https://github.com/Master-Osaro/32_social-media-dashboard-with-theme-switcher">Github link</a> </li> 
-<li>Interactive-card-details-form-main <a href="https://interactive-card-form-o.netlify.app/">live link</a> <a href="https://github.com/Master-Osaro/40_interactive-card-details-form-main">Github link</a> </li> 
-<li>Cocktail DB <a href="https://cocktaildbr.netlify.app/">live link</a> <a href="https://github.com/Master-Osaro/CocktailDB">Github link</a> </li>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-</ul>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Project tracking intro component | Frontend Mentor </title>
+</head>
+<body>
+  <nav>
+      <img src="images/logo.svg" alt="Company Logo" class="logo">
+      <input type="checkbox" id="menu__checkbox">
+      <label for="menu__checkbox">
+        <div class="nav__ham-menu"></div>
+      </label>
+      
+      <div class="nav-list__wrapper">
+        <ul class="nav-list">
+          <li><a href="">Home</a></li>
+          <li>
+            <div class="divider">
+              <svg height="50" width="50" class="divider__desktop">
+                <circle r="4" stroke="black" stroke-width="0" fill="#a0a1ac" cx="25" cy="25"></circle>
+                <!--  Sorry, your browser does not support inline SVG.   -->
+              </svg>
+              <hr class="divider__mobile">
+            </div>
+            
+          </li>
+          <li><a href="#projects" class="login-link">My Projects</a></li>
+        </ul>
+      </div>
+  </nav>
+  <main>
+    <div class="container">
+      <section class="content__wrapper">
+        <h2><span> Hello!</span> my name is Osaro</h2>
+        <h1>FRONT—END DEVELOPER</h1>
+        <p>I am a developer based in Port-Harcourt, Nigeria focused on creating interactive digital experiences on the web</p>
+        <div class="content__wrapper-btns content__wrapper-btns--main">
+          <a href="https://github.com/Master-Osaro" class="content__wrapper-btn  content__wrapper-btn--primary" >Visit Github Page</a>
+          <a href="#projects" type="button" class="content__wrapper-btn  content__wrapper-btn--secondary">View Current  Projects</a>
+        </div>
+      </section>
+      <div class="illustration__wrapper">
+        <img src="images/illustration-devices.svg" alt="">
+      </div>
+    </div>
+    <div class="container">
+      <div class="illustration__wrapper illustration__wrapper--left">
+        <img src="images/illustration-devices.svg" alt="">
+      </div>
+      <section class="content__wrapper content__wrapper--featured" id="projects">
+        <h2>Featured projects</h2>
+        <p>SELECTED WORK (4)
+          2022—23</p>
+        <div class="content__wrapper-btns">
+          <div class="project project-1">
+            <div class="project__number">01</div>
+            <div class="project__content">
+              <h3>Room homepage slider</h3>
+              <p></p>
+              <div class="project__content-btns">
+                <a class="live-link" href="https://room-homepage-react-o.netlify.app/">live</a>
+                <a class="code-link" href="https://github.com/Master-Osaro/47-room-homepage-react">view code</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="content__wrapper-btns">
+          <div class="project project-1">
+            <div class="project__number">02</div>
+            <div class="project__content">
+              <h3>Cocktail DB</h3>
+              <p></p>
+              <div class="project__content-btns">
+                <a class="live-link" href="https://cocktaildbr.netlify.app/">live</a>
+                <a class="code-link" href="https://github.com/Master-Osaro/CocktailDB">view code</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="content__wrapper-btns">
+          <div class="project project-1">
+            <div class="project__number">03</div>
+            <div class="project__content">
+              <h3>Interactive card details form</h3>
+              <p></p>
+              <div class="project__content-btns">
+                <a class="live-link" href="https://interactive-card-form-o.netlify.app/">live</a>
+                <a class="code-link" href="https://github.com/Master-Osaro/40_interactive-card-details-form-main">view code</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="content__wrapper-btns">
+          <div class="project project-1">
+            <div class="project__number">04</div>
+            <div class="project__content">
+              <h3>Social media dashboard with dark mode</h3>
+              <p></p>
+              <div class="project__content-btns">
+                <a class="live-link" href="https://social-media-dashboard-o.netlify.app/">live</a>
+                <a class="code-link" href="https://github.com/Master-Osaro/32_social-media-dashboard-with-theme-switcher">view code</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="container footer">
+      <a href="https://github.com/Master-Osaro" class="content__wrapper-btn  content__wrapper-btn--secondary" >Github</a>
+          <a href="https://twitter.com/iyoha_osaro/" type="button" class="content__wrapper-btn  content__wrapper-btn--secondary">Twitter</a>
+          <a href="https://www.linkedin.com/in/osaro-iyoha-b90703132/" type="button" class="content__wrapper-btn  content__wrapper-btn--secondary">LinkedIn</a>
+    </div>
+    
+  </main>
+
+  <footer>
+  </footer>
+</body>
+</html>
